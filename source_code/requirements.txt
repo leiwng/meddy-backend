@@ -1,0 +1,14 @@
+python-multipart==0.0.12
+motor==3.7.0
+fastapi==0.114.0
+passlib==1.7.4
+email_validator==2.2.0
+magic-pdf[full]
+langchain-community==0.3.20
+langchain-ollama==0.3.1
+langchain-openai==0.3.12
+accelerate==1.6.0
+faiss-cpu==1.11.0
+websockets==15.0.1
+ultralytics==8.3.133
+opencv-python-headless==4.10.0.84

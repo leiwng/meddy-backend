@@ -1,0 +1,17 @@
+{
+  "dockerfile_lines": [],
+  "dependencies": ["."],
+  "graphs": {
+    "agent": "./source_code/agent/graph.py:graph"
+  },
+  "env": ".env",
+  "http": {
+    "app": "./source_code/api/webapp.py:app"
+  },
+  "store": {
+        "index": {
+            "dims": 1024,
+            "embed": "./source_code/agent/embedding_function.py:aembed_texts"
+        }
+    }
+}
